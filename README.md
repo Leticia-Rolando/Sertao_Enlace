@@ -16,8 +16,8 @@ Local de atuação: São Paulo.
 
 Software: Visual Studio Code. \
 Linguagens: HTML e CSS. \
-Paleta de Cores: 
-#f7dcb9
-#DEAC80
-#b99470
+Paleta de Cores: \
+#f7dcb9 \
+#DEAC80 \
+#b99470 \
 #C7956F
