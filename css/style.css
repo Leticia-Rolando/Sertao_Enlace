@@ -1,0 +1,778 @@
+/*Navbar*/
+
+nav {
+  background-color: #f7dcb9;
+  padding: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  z-index: 1;
+}
+
+.nav_container_left {
+  display: flex;
+}
+
+#LogoDaEmpresa {
+  width: 122px;
+  height: 50px;
+  align-self: center;
+}
+
+#ListaDaNav {
+  list-style: none;
+  align-self: center;
+  text-align: center;
+  display: inline;
+  display: flex;
+  padding-left: 30px;
+  font-size: 20px;
+  font-family: "Lexend", sans-serif;
+  gap: 25px;
+
+}
+
+.ConteudoDaLista:hover {
+  color: #b99470;
+  cursor: pointer;
+  transition: .2s;
+}
+
+.nav_container_right {
+  display: flex;
+  gap: 15px;
+}
+
+#EntreEmContato {
+  display: flex;
+  text-align: center;
+  align-self: center;
+  padding-right: 10px;
+  font-size: 20px;
+  font-family: "Lexend", sans-serif;
+}
+
+/* From Uiverse.io by mrhyddenn */
+.zap {
+  background: transparent;
+  position: relative;
+  padding: 5px 15px;
+  display: flex;
+  align-items: center;
+  font-family: "Lexend", sans-serif;
+  font-size: 17px;
+  font-weight: 600;
+  text-decoration: none;
+  cursor: pointer;
+  border: 1px solid #25D366;
+  border-radius: 25px;
+  outline: none;
+  overflow: hidden;
+  color: #25D366;
+  transition: color 0.3s 0.1s ease-out;
+  text-align: center;
+  z-index: 10;
+}
+
+.zap span {
+  margin: 10px;
+}
+
+.zap::before {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  content: '';
+  border-radius: 50%;
+  display: block;
+  width: 20em;
+  height: 20em;
+  left: -5em;
+  text-align: center;
+  transition: box-shadow 0.5s ease-out;
+  z-index: -1;
+}
+
+.zap:hover {
+  color: #fff;
+  border: 1px solid #25D366;
+}
+
+.zap:hover::before {
+  box-shadow: inset 0 0 0 10em #25D366;
+}
+
+#linkwhatsapp {
+  text-decoration: none
+}
+
+
+.email {
+  background: transparent;
+  position: relative;
+  padding: 5px 15px;
+  display: flex;
+  align-items: center;
+  font-family: "Lexend", sans-serif;
+  font-size: 17px;
+  font-weight: 600;
+  text-decoration: none;
+  cursor: pointer;
+  border: 1px solid #d32525;
+  border-radius: 25px;
+  outline: none;
+  overflow: hidden;
+  color: #d32525;
+  transition: color 0.3s 0.1s ease-out;
+  text-align: center;
+  z-index: 2;
+}
+
+.email span {
+  margin: 10px;
+}
+
+.email::before {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  content: '';
+  border-radius: 50%;
+  display: block;
+  width: 20em;
+  height: 20em;
+  left: -5em;
+  text-align: center;
+  transition: box-shadow 0.5s ease-out;
+  z-index: -1;
+}
+
+.email:hover {
+  color: #fff;
+  border: 1px solid #d32525;
+}
+
+.email:hover::before {
+  box-shadow: inset 0 0 0 10em #d32525;
+}
+
+#linkgmail {
+  text-decoration: none
+}
+
+/*Header*/
+
+header {
+
+  height: 80vh;
+  background-size: cover;
+  background-image: url(../images/fotodoheader.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+
+
+}
+
+.gradiente {
+
+  height: 80vh;
+  display: flex;
+  align-items: center;
+  background: rgba(1, 1, 1, 1.0);
+  background: linear-gradient(90deg, rgba(1, 1, 1, 0.472), rgba(255, 255, 255, 0));
+
+}
+
+.gradienteTexto {
+
+  width: 80%;
+  margin: 0 auto;
+  color: #C7956F;
+  font-family: "Lexend", sans-serif;
+
+}
+
+.gradienteTexto img {
+  width: 352px;
+  height: 177px;
+  padding-top: 20px;
+
+}
+
+
+.gradienteTexto h1 {
+  font-size: 60px;
+
+}
+
+.gradienteTexto h2 {
+  font-size: 20px;
+  padding-top: 20px;
+  color: #f7dcb9;
+}
+
+
+/*Main Serviços*/
+
+
+#divServicos {
+  width: 100%;
+  height: 75vh;
+  background-color: #f7dcb98c;
+
+}
+
+#NossosServicos {
+  font-family: "Lexend", sans-serif;
+  font-size: 50px;
+  display: flex;
+  margin: 0 auto;
+  align-items: center;
+  width: 80%;
+  padding-top: 60px;
+  padding-bottom: 60px;
+  color: #C7956F;
+}
+
+.cardsDeServico {
+  display: flex;
+  gap: 30px;
+  width: 80%;
+  margin: 0 auto;
+
+}
+
+.card1 {
+  display: flex;
+  border-radius: 20px 20px 20px 20px;
+  width: 500px;
+  height: 350px;
+  box-shadow: 6px 5px 39px 2px rgba(0, 0, 0, 0.417);
+  overflow: hidden;
+  border-color: #000000;
+
+}
+
+.card1 img {
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  background-size: cover;
+
+}
+
+
+.card2 {
+  display: flex;
+  border-radius: 20px 20px 20px 20px;
+  width: 500px;
+  height: 350px;
+  box-shadow: 6px 5px 39px 2px rgba(0, 0, 0, 0.417);
+  overflow: hidden;
+  border-color: #000000;
+}
+
+.card2 img {
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  background-size: cover;
+
+}
+
+.card3 {
+  display: flex;
+  border-radius: 20px 20px 20px 20px;
+  width: 500px;
+  height: 350px;
+  box-shadow: 6px 5px 39px 2px rgba(0, 0, 0, 0.417);
+  overflow: hidden;
+  border-color: #000000;
+}
+
+.card3 img {
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  background-size: cover;
+
+}
+
+
+.card-body {
+  background-color: #fffcfc;
+  flex-grow: 1;
+  padding: 24px;
+}
+
+
+#textosDosCards {
+  font-family: "Lexend", sans-serif;
+  font-size: 32px;
+  display: flex;
+  margin: 0 auto;
+  align-items: center;
+  justify-content: space-between;
+  width: 68%;
+  gap: 30px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  color: #C7956F;
+
+}
+
+/*Main Preços*/
+
+#divPrecos {
+  width: 100%;
+  height: 75vh;
+  background-color: #deac80d6;
+}
+
+#NossosPrecos {
+  font-family: "Lexend", sans-serif;
+  font-size: 50px;
+  display: flex;
+  margin: 0 auto;
+  align-items: center;
+  justify-content: center;
+  width: 80%;
+  padding-top: 60px;
+  padding-bottom: 60px;
+  color: #fff;
+}
+
+.cardsDePreco {
+  display: flex;
+  gap: 80px;
+  width: 80%;
+  margin: 0 auto;
+  justify-content: center;
+
+}
+
+/* From Uiverse.io by Yaya12085 */
+.pack-container1 {
+  position: relative;
+  display: flex;
+  height: 350px;
+  width: 350px;
+  flex-direction: column;
+  border-radius: 12px;
+  background-color: #b99470;
+  border: 1px solid #fff;
+  padding: 1.6rem;
+  color: #fff;
+  box-shadow: 6px 5px 39px 2px rgba(0, 0, 0, 0.163);
+}
+
+.header {
+  position: relative;
+  margin: 0;
+  margin-bottom: 2rem;
+  overflow: hidden;
+  border-radius: 0;
+  border-bottom: 1px solid #fff;
+  background: transparent;
+  padding-bottom: 1rem;
+  text-align: center;
+}
+
+.title {
+  display: block;
+  font-family: "Lexend", sans-serif;
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+  text-transform: uppercase;
+  color: #fff;
+}
+
+.price-container {
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 4px;
+  font-family: "Lexend", sans-serif;
+  font-size: 4.5rem;
+  line-height: 1;
+}
+
+.price-container span:first-child {
+  margin-top: 10px;
+  font-size: 2.25rem;
+  line-height: 2.5rem;
+}
+
+.price-container span:last-child {
+  align-self: flex-end;
+  font-size: 2.25rem;
+  line-height: 2.5rem;
+}
+
+.lists {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.list {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.list span {
+  border-radius: 50%;
+  border: 1px solid rgba(255, 255, 255, 0.24);
+  background-color: rgba(255, 255, 255, 0.185);
+  height: 30px;
+  width: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.list span svg {
+  height: 12px;
+  width: 12px;
+}
+
+.list p {
+  display: block;
+  font-family: "Lexend", sans-serif;
+}
+
+.button-container {
+  margin-top: 20px;
+  padding: 0;
+}
+
+.button-container button {
+  display: block;
+  width: 100%;
+  background-color: #fff;
+  padding: 10px 20px;
+  text-transform: uppercase;
+  color: #000;
+  outline: 0;
+  border: 0;
+  border-radius: 10px;
+  font-family: "Lexend", sans-serif;
+}
+
+
+.pack-container2 {
+  position: relative;
+  display: flex;
+  height: 350px;
+  width: 350px;
+  flex-direction: column;
+  border-radius: 12px;
+  background-color: #b99470;
+  border: 1px solid #fff;
+  padding: 1.6rem;
+  color: #fff;
+  box-shadow: 6px 5px 39px 2px rgba(0, 0, 0, 0.163);
+}
+
+
+.pack-container3 {
+  position: relative;
+  display: flex;
+  height: 350px;
+  width: 350px;
+  flex-direction: column;
+  border-radius: 12px;
+  background-color: #b99470;
+  border: 1px solid #fff;
+  padding: 1.6rem;
+  color: #fff;
+  box-shadow: 6px 5px 39px 2px rgba(0, 0, 0, 0.163);
+}
+
+.button-container button:hover {
+  background-color: #f7dcb9;
+  color: #000;
+  transition: .4s;
+  cursor: pointer;
+}
+
+/*Main Opiniões*/
+
+#divOpinioes {
+  width: 100%;
+  height: 55vh;
+  background-color: #f7dcb98c;
+
+}
+
+#OpinioesDosClientes {
+  font-family: "Lexend", sans-serif;
+  font-size: 50px;
+  display: flex;
+  margin: 0 auto;
+  align-items: center;
+  width: 80%;
+  padding-top: 60px;
+  padding-bottom: 60px;
+  color: #C7956F;
+}
+
+.cardsDeOpiniao {
+  display: flex;
+  width: 82%;
+  margin: 0 auto;
+  justify-content: center;
+}
+
+.box1 {
+  width: 1100px;
+  box-shadow: #000000;
+  background-color: #C7956F;
+  border-radius: 15px;
+  padding: 20px;
+  margin: 15px;
+  font-family: "Lexend", sans-serif;
+}
+
+.box2 {
+  width: 1100px;
+  box-shadow: #000000;
+  background-color: #C7956F;
+  border-radius: 15px;
+  padding: 20px;
+  margin: 15px;
+  font-family: "Lexend", sans-serif;
+}
+
+.box3 {
+  width: 1100px;
+  box-shadow: #000000;
+  background-color: #C7956F;
+  border-radius: 15px;
+  padding: 20px;
+  margin: 15px;
+  font-family: "Lexend", sans-serif;
+}
+
+.box4 {
+  width: 1100px;
+  box-shadow: #000000;
+  background-color: #C7956F;
+  border-radius: 15px;
+  padding: 20px;
+  margin: 15px;
+  font-family: "Lexend", sans-serif;
+}
+
+.perfilimg {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  overflow: hidden;
+  margin-right: 10px;
+}
+
+.perfilimg img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+
+.perfil {
+  display: flex;
+  align-items: center;
+}
+
+.nomeusuario {
+  display: flex;
+  flex-direction: column;
+}
+
+.nomeusuario strong {
+  color: #ffffff;
+  font-size: 18px;
+  letter-spacing: 0.5px;
+}
+
+.nomeusuario span {
+  color: #f7dcb9;
+  font-size: 13px;
+  padding-top: 2px;
+}
+
+.review {
+  color: rgb(255, 225, 0);
+}
+
+.boxtop {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.comentario p {
+  font-size: 16px;
+  color: #f7dcb9;
+  text-align: justify;
+  line-height: 20px;
+}
+
+
+/*Footer*/
+
+footer{
+  background-color: #f7dcb9;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-family: "Lexend", sans-serif;
+  padding: 20px;
+}
+
+#LogoDaEmpresa2 {
+  width: 122px;
+  height: 50px;
+  align-self: center;
+}
+
+
+.footer_container_left{
+  display: flex;
+  padding-left: 10PX;
+}
+
+.footer_container_center{
+  display: flex;
+}
+
+.footer_container_center p{
+  color: #C7956F;
+}
+
+.footer_container_right{
+  display: flex;
+  gap: 20px;
+  padding-right: 10PX;
+}
+
+
+/* From Uiverse.io by kamehame-ha */ 
+.button1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 15px;
+  gap: 15px;
+  background-color: #1877F2;
+  outline: 3px #1877F2 solid;
+  outline-offset: -3px;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  transition: 400ms;
+}
+
+.button1 svg {
+  color: #fff;
+}
+
+.button1 svg path {
+  transition: 400ms;
+}
+
+.button1:hover {
+  background-color: transparent;
+}
+
+.button1:hover .text {
+  color: #1877F2;
+}
+
+.button1:hover svg path {
+  fill: #1877F2;
+}
+
+.button2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 15px;
+  gap: 15px;
+  background-color: #181717;
+  outline: 3px #181717 solid;
+  outline-offset: -3px;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  transition: 400ms;
+}
+
+
+.button2 svg path {
+  transition: 400ms;
+}
+
+.button2 svg {
+  color: #fff;
+}
+
+.button2:hover {
+  background-color: transparent;
+}
+
+.button2:hover .text {
+  color: #181717;
+}
+
+.button2:hover svg path {
+  fill: #181717;
+}
+
+
+.button3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 15px;
+  gap: 15px;
+  background-color: rgb(195, 35, 89);
+  outline: 3px rgb(195, 35, 89) solid;
+  outline-offset: -3px;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  transition: 400ms;
+}
+
+.button3 svg{
+  color: #ffffff;
+}
+
+.button3 svg path {
+  transition: 400ms;
+}
+
+.button3:hover {
+  background-color: transparent;
+}
+
+.button3:hover .text {
+  color: rgb(195, 35, 89);
+}
+
+.button3:hover svg path {
+  fill: rgb(195, 35, 89);
+}
